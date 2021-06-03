@@ -1,5 +1,7 @@
 /*
-create a program that will print the length of the word "the end" if the input of two numbers is above square root of 7.all input must be a positive else print try again*/
+create a program that will print the length of the word "the end"
+if the input of two numbers is above square root of 7.all input must be a positive
+else print try again*/
 
 #include<stdio.h>
 #include<string.h>
