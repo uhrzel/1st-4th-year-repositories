@@ -1,0 +1,44 @@
+html, body
+{
+  background-color: #508c9b;
+}
+h1
+{
+  background-color: #57ba95;
+  border: 2px solid;
+  font-family:"Arial black";
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+p,label
+{
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+input[type="number"]
+{
+  height: 80px;
+  width: 600px;
+  padding: 0 20px;
+  background-color: #508c9b;
+  padding: 1px #006c87;
+  text-align: justify;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: "Arial";
+}
+button
+{
+  font-weight: bold;
+  font-size: 20px;
+  width: 20%;
+  height: 80px;
+  background-color: #57ba95;
+}

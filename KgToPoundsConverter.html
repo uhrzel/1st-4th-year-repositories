@@ -1,0 +1,19 @@
+<html>
+  <center>
+    <h1>KILOGRAMS TO POUNDS CALCULATOR </h1>
+  </center>
+  <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+<p>
+  <label>Kilogram:</label>
+  <input id="inputKilograms"type="number"placeholder="Kilograms">
+</p>
+
+<p>Pounds: <span id="weight"></span></p>
+<button onclick="weightConverter()">Convert</button>
+<script type="text/javascript" charset="utf-8">
+function weightConverter(valNum ) {
+  let weight = parseInt(document.querySelector("#inputKilograms").value);
+  document.getElementById("weight").innerHTML = weight*2.205;
+}
+</script>
+<span id="weight"></span></html>
